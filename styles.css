@@ -9,13 +9,13 @@ header {
   background-color: #1a1a1a;
   padding: 20px;
   text-align: center;
-  border-bottom: 2px solid #2f9ee9;
+  border-bottom: 2px solid #4c87af;
 }
 
 header h1 {
   margin: 0;
   font-size: 2.5em;
-  color: #2f9ee9;
+  color: #4c87af;
 }
 
 header p {
@@ -28,28 +28,23 @@ main {
   padding: 20px;
 }
 
-#blog-container {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
 .blog-post {
   background-color: #222;
   padding: 15px;
   border-radius: 8px;
   border: 1px solid #333;
+  margin-bottom: 20px;
   transition: transform 0.2s, box-shadow 0.2s;
 }
 
 .blog-post:hover {
   transform: translateY(-3px);
-  box-shadow: 0 3px 15px rgba(1, 20, 100, 0.3);
+  box-shadow: 0 3px 15px rgba(20, 30, 180, 0.3);
 }
 
 .blog-post h2 {
   margin-top: 0;
-  color: #2f9ee9;
+  color: #4c87af;
 }
 
 .blog-post p {
@@ -60,7 +55,7 @@ main {
   display: inline-block;
   margin-top: 10px;
   padding: 8px 16px;
-  background-color: #2f9ee9;
+  background-color: #4c87af;
   color: #111;
   border: none;
   border-radius: 4px;
@@ -70,12 +65,12 @@ main {
 }
 
 .download-button:hover {
-  background-color: #2f9ee9;
+  background-color: #4c87af;
 }
 
 footer {
   text-align: center;
   padding: 15px;
   background-color: #1a1a1a;
-  border-top: 2px solid #2f9ee9;
+  border-top: 2px solid #4c87af;
 }
